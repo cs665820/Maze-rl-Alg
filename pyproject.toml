@@ -1,0 +1,20 @@
+[project]
+name = "grid-maze-rl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "~=3.9"
+dependencies = [
+  "pygame", 
+  "numpy",
+  "stable-baselines3[extra]",
+  "gymnasium",
+  "tensorflow",
+  "wandb",
+  "imageio",
+  "transformers",
+  "datasets",
+  "torch",
+  "tf-keras",
+  "accelerate",
+]
